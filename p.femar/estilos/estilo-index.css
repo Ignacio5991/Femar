@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mArca {
+  object-fit: cover;
+  width: 100%;
+}
+.tItulo-1 {
+  font-family: 'Roboto+Condensed';
+  font-size: 5rem;
+}
+.titulo-2 {
+  font-family: 'Roboto+Condensed';
+  font-size: 5rem;
+}
+.presentacion {
+  font-family: 'Oswald';
+  font-size: 2rem;
+}
