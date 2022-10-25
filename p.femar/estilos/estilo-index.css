@@ -10,12 +10,28 @@
 .tItulo-1 {
   font-family: 'Roboto+Condensed';
   font-size: 5rem;
+  text-align: center;
 }
 .titulo-2 {
   font-family: 'Roboto+Condensed';
   font-size: 5rem;
 }
+.caras-visibles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.soCio {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
 .presentacion {
   font-family: 'Oswald';
   font-size: 2rem;
+}
+.maPa {
+  width: 500px;
+  height: 500px;
+  margin-left: 400px;
 }
