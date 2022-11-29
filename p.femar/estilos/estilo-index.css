@@ -3,26 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*Estilos del Header*/
+/*Estilos del Header y del Nav*/
 .mArca {
-  width: 50rem;
-  height: 20rem;
-  margin-left: 280px;
-  margin-top: 60px;
+  width: auto;
+  height: 80px;
 }
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 8px 0 #0002;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+}
+.nav-link {
+  color: black;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-1 {
+  background-color: white;
+}
+
 /*Estilos del Body*/
 .tItulo-1 {
   font-family: 'Roboto+Condensed';
   font-size: 5rem;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 90px;
 }
-.caras-visibles {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  justify-content: space-around;
-  margin-top: 25px;
+.container-2 {
+  background-color: whitesmoke;
 }
 .shadow-drop-2-center {
   -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -85,20 +96,39 @@
   text-align: center;
   margin-top: 60px;
 }
+.card {
+  box-shadow: 0 2px 8px 0 #0002;
+}
+.row {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+.container-3 {
+  background-color: white;
+}
 .carousel {
   width: 650px;
   height: 650px;
   margin-top: 60px;
   margin-left: 380px;
 }
+.container-4 {
+  background-color: whitesmoke;
+}
 /*Estilos de Contacto*/
+.container-5 {
+  background-color: white;
+}
 .contactenos {
-  text-align: center;
-  margin-bottom: 100px;
+  text-align: left;
 }
 .titUlo3 {
   font-size: 5rem;
   margin-bottom: 60px;
+  text-align: center;
 }
 .conversacion {
   color: black;
@@ -117,10 +147,20 @@
   display: inline-block;
   font-size: x-large;
 }
-/*Estilos del Footer*/
-
 .maPa {
-  object-fit: cover;
+  height: 500px;
+  width: 500px;
+  margin-left: 600px;
+  margin-bottom: 150px;
+}
+/*Estilos del Footer*/
+.pieDePagina {
+  text-align: center;
+  color: black;
+  background-color: white;
+  box-shadow: 0 2px 8px 0 #0002;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
   width: 100%;
 }
 /*-----------------Creando el Responsive--------------------*/
