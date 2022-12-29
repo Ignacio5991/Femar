@@ -39,6 +39,8 @@
 }
 .container-2 {
   background-color: white;
+  width: 100%;
+  overflow: hidden;
 }
 .card-img-top {
   width: 100%;
@@ -131,6 +133,7 @@
 /*Estilos de Contacto*/
 .container-5 {
   background-color: #858988;
+  overflow: hidden;
 }
 .contactenos {
   text-align: left;
