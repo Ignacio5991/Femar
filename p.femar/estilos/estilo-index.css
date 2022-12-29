@@ -19,7 +19,12 @@
 .nav-link {
   color: black;
   font-size: 25px;
+  transition: grey 0.5s;
   font-family: 'Franklin Gothic Medium';
+}
+.nav-link :hover{
+  color: grey
+
 }
 .container-1 {
   background-color: #858988;
