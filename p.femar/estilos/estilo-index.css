@@ -158,14 +158,13 @@
   font-size: x-large;
 }
 .contacto {
-  top: 150px;
-  left: 200px;
+  margin-left: 200px;
 }
 .maPa {
   height: 500px;
   width: 500px;
   position: relative;
-  bottom: 190px;
+  bottom: 270px;
   left: 700px;
 }
 /*Estilos del Footer*/
