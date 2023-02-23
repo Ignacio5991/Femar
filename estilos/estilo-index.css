@@ -130,6 +130,16 @@
   margin-top: 60px;
   margin-left: 380px;
 }
+/* .servicios { Hablar con gradnote pq no es viable
+  width: 900px;
+  height: 600px;
+  margin-left: 230px;
+}
+.leftColumn{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+
+} */
 .container-4 {
   background-color: white;
 }
@@ -155,6 +165,10 @@
 }
 .contactenos {
   text-align: left;
+}
+.contacto{
+  display: flex;
+  flex-direction: row;
 }
 .titUlo3 {
   font-size: 5rem;

@@ -72,8 +72,15 @@
       </div>
     </div>
     <div class="container-3">
-      <h2 id="servicios" class="tItulo-2">MAS SERVICIOS</h2>
-      <!-- Aplicando Carrousel y Seccion de Servicos-->
+      <h2 id="servicios" class="tItulo-2">NUESTROS SERVICIOS</h2>
+      <!-- Se muestran los servicios-->
+      <!-- <div><img src="./imagenes/nuestros-servicios.jpg" class="servicios"></div>
+      <div class="leftColumn">
+        <p>OBRAS CIVILES</p>
+        <p>CONSTRUCCIÓN EN SECO</p>
+        <p>DESMALEZADOS</p>
+        <p>COLOCACIONES</p>
+      </div> -->
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -193,6 +200,60 @@
       </div>
     </div>
     </main>
+    <!-- Agregamos Formulario de contacto -->
+    <section class="mb-4">
+      <div class="title-contact">
+        <h2 class="encabezado h2-responsive font-weight-bold text-center my-4">Formulario de contacto</h2>
+      </div>
+      <div class="row containet-contact">
+        <div class="formulario col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name">Nombre</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="lastName" name="lastName" class="form-control">
+                          <label for="name">Apellido</label>
+                      </div>
+                  </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Email</label>
+                        </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                      <input type="text" id="telefono" name="telefono" class="form-control">
+                      <label for="email" class="">Telefono</label>
+                  </div>
+            </div>
+      <div class="row">
+                    <div class="col-md-12">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Consulta</label>
+                        </div>
+                    </div>
+                  </div>
+            </form>
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+            </div>
+            <div class="status"></div>
+        </div>
+      </div>
+    </section>
     <!--Comienza el footer-->
     <footer class="pieDePagina">
       <div class="registrado footer-col">© 2023 - Femar Servicio Integral de Construccion</div>
