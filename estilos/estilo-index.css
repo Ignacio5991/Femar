@@ -16,7 +16,7 @@
   top: 0;
   width: 100%;
 }
-.navbar-nav{
+.navbar-nav {
   margin-left: auto;
 }
 .nav-link {
@@ -25,12 +25,11 @@
   transition: grey 0.5s;
   font-family: 'Franklin Gothic Medium';
 }
-.nav-link :hover{
-  color: grey
-
+.nav-link :hover {
+  color: grey;
 }
 .container-1 {
-  background-color: #DFDBDA;
+  background-color: #dfdbda;
 }
 
 /*Estilos del Body*/
@@ -122,51 +121,57 @@
   justify-content: space-around;
 }
 .container-3 {
-  background-color: #DFDBDA;
+  background-color: #dfdbda;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
 }
-.carousel {
+/* .carousel {
   width: 650px;
   height: 650px;
   margin-top: 60px;
   margin-left: 380px;
-}
-/* .servicios { Hablar con gradnote pq no es viable
+} */
+.service {
   width: 900px;
   height: 600px;
-  margin-left: 230px;
 }
-.leftColumn{
+.serviceColumn {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 25px;
-
-} */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
 .container-4 {
   background-color: white;
 }
 /*Estilos de la seccion QUIENES SOMOS*/
-.card-title{
+.card-title {
   font-size: 5rem;
   margin-bottom: 60px;
   text-align: center;
 }
-.card-text{
+.card-text {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 100;
   font-size: 20px;
 }
-.text-strong{
+.text-strong {
   font-size: 3rem;
   text-align: center;
 }
 /*Estilos de Contacto*/
 .container-5 {
-  background-color: #DFDBDA;
+  background-color: #dfdbda;
   overflow: hidden;
 }
 .contactenos {
   text-align: left;
 }
-.contacto{
+.contacto {
   display: flex;
   flex-direction: row;
 }
@@ -175,10 +180,14 @@
   margin-bottom: 25px;
   text-align: center;
 }
-.conTactExt{
+.conTactExt {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 25px;
   margin-bottom: 65px;
+}
+.email {
+  display: inline-block;
+  font-size: x-large;
 }
 .conversacion {
   color: black;
@@ -197,15 +206,20 @@
   display: inline-block;
   font-size: x-large;
 }
-.contacto {
-  margin-left: 200px;
-}
+
 .maPa {
   height: 500px;
   width: 500px;
-  position: relative;
   bottom: 270px;
   left: 700px;
+}
+.container-5-1 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.formColumns {
+  display: flex;
+  flex-direction: column;
 }
 /*Estilos del Footer*/
 .pieDePagina {
@@ -217,9 +231,6 @@
   font-size: 35px;
   width: 100%;
 }
-
-
-
 
 /*-----------------Creando el Responsive--------------------*/
 /*Media Quaries para Tablet*/
