@@ -141,11 +141,11 @@
   height: 600px;
 }
 .img-fluid {
-  box-shadow: 12px 12px 12px 12px rgba(32, 32, 32, 0.3);
+  box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
 }
 .serviceColumn {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 25px;
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  font-size: 21px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -162,12 +162,14 @@
   text-align: center;
 }
 .card-text {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: 100;
-  font-size: 20px;
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  font-size: 21px;
+  line-height: 1.5em;
+  margin: 0 auto;
+  max-width: 80%;
 }
 .text-strong {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
 }
 /*Estilos de Contacto*/
@@ -185,12 +187,18 @@
 .titUlo3 {
   font-size: 5rem;
   margin-bottom: 25px;
+  margin: 0 auto;
   text-align: center;
+  max-width: 80%;
 }
 .conTactExt {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 25px;
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  font-size: 21px;
   margin-bottom: 65px;
+  line-height: 1.2em;
+  margin: 0 auto;
+  max-width: 80%;
+  text-align: center;
 }
 .email {
   display: inline-block;
@@ -221,7 +229,7 @@
   left: 700px;
 }
 .shadowMap {
-  box-shadow: 12px 12px 12px 12px rgba(32, 32, 32, 0.3);
+  box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
 }
 .container-5-1 {
   display: flex;
@@ -232,7 +240,7 @@
   flex-direction: column;
 }
 .shadowForm {
-  box-shadow: 12px 12px 12px 12px rgba(32, 32, 32, 0.3);
+  box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
 }
 /*Estilos del Footer*/
 .pieDePagina {
