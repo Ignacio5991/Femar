@@ -67,7 +67,7 @@
 .card {
   box-shadow: 0 2px 8px 0 #0002;
 }
-.row {
+.centralizacion-elementos-contacto {
   justify-content: center;
   display: flex;
   flex-direction: row;
@@ -168,7 +168,7 @@
   bottom: 270px;
   left: 700px;
 }
-.shadowmap {
+.shadow-elements-footer {
   box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
 }
 .container-5-1 {
@@ -178,9 +178,6 @@
 .formcolumns {
   display: flex;
   flex-direction: column;
-}
-.shadowForm {
-  box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
 }
 /*Estilos del Footer*/
 .pieDePagina {
