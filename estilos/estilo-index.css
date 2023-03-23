@@ -44,19 +44,6 @@
   object-fit: cover;
   width: 100%;
 }
-/* .card-img-top {
-  width: 100%;
-  height: 100%;
-}
-
-.shadow-drop-2-center {
-  -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-.card-text {
-  font-family: 'Franklin Gothic ';
-  font-size: 2rem;
-} */
 
 .titulo-2 {
   font-family: 'Franklin Gothic ';
@@ -100,9 +87,8 @@
   background-color: white;
 }
 /*Estilos de la seccion QUIENES SOMOS*/
-.card-title {
-  font-size: 5rem;
-  margin-bottom: 60px;
+.titulo-M {
+  font-size: 3rem;
   text-align: center;
 }
 .card-text {
@@ -123,13 +109,6 @@
 .contacto {
   display: flex;
   flex-direction: row;
-}
-.titulo-contactanos {
-  font-size: 5rem;
-  margin-bottom: 25px;
-  margin: 0 auto;
-  text-align: center;
-  max-width: 80%;
 }
 .contactext {
   font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
@@ -202,7 +181,7 @@
     margin-left: 200px;
     margin-top: 30px;
   }
-  .tItulo-1 {
+  .titulo-L {
     font-family: 'Roboto+Condensed';
     font-size: 40px;
     text-align: center;
@@ -261,20 +240,15 @@
 /*Media Quaries para Mobile*/
 @media screen and (max-width: 425px) {
   .mArca {
-    width: 30rem;
-    height: 10rem;
-    margin-left: 100px;
-    margin-top: 30px;
+    width: auto;
+    height: 80px;
   }
-  .text {
-    margin-left: 200px;
-    width: 300px;
-  }
-  .tItulo-1 {
+
+  .titulo-L {
     font-family: 'Roboto+Condensed';
-    font-size: 50px;
-    margin-top: 60px;
+    font-size: 40px;
   }
+
   .caras-visibles {
     display: flex;
     flex-direction: column;
