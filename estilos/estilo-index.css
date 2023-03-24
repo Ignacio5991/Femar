@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 /*Estilos del Header y del Nav*/
 .marca {
@@ -34,6 +33,9 @@
 }
 
 /*Estilos del Body*/
+.no-scroll {
+  overflow-x: hidden;
+}
 .titulo-L {
   font-family: 'Franklin Gothic Medium';
   font-size: 5rem;
