@@ -64,20 +64,27 @@
   justify-content: space-between;
   justify-content: space-around;
 }
-.servicios {
+.carousel-item {
+  width: 950px;
+  height: 750px;
+  margin-top: 60px;
+  margin-left: 190px;
+}
+
+/* .servicios {
   display: flex;
   flex-wrap: nowrap;
   align-content: center;
-}
+} */
 
-.service {
+/* .service {
   width: 900px;
   height: 600px;
-}
+} */
 .img-fluid {
   box-shadow: 7px 7px 12px 0 rgba(20, 20, 20, 0.3);
 }
-.serviceColumn {
+/* .serviceColumn {
   font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
   font-size: 21px;
   display: flex;
@@ -85,7 +92,7 @@
   justify-content: space-around;
   align-items: center;
   text-align: center;
-}
+} */
 .fondo-blanco {
   background-color: white;
 }
@@ -93,6 +100,7 @@
 .titulo-M {
   font-size: 3rem;
   text-align: center;
+  text-decoration: underline red;
 }
 .card-text {
   font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
