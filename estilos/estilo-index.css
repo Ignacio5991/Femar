@@ -65,10 +65,10 @@
   justify-content: space-around;
 }
 .carousel-item {
-  width: 950px;
-  height: 750px;
-  margin-top: 60px;
-  margin-left: 190px;
+  width: 650px;
+  height: 450px;
+  margin-top: 30px;
+  margin-left: 360px;
 }
 
 /* .servicios {
@@ -194,58 +194,87 @@
   }
   .titulo-L {
     font-family: 'Roboto+Condensed';
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
-    margin-top: 60px;
   }
+  /* Estilo de los Titulos  */
+  .titulo-l {
+    font-family: 'Roboto+Condensed';
+    font-size: 60px;
+    text-align: center;
+  }
+  .titulo-M {
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: underline red;
+  }
+
   .caras-visibles {
     display: flex;
     flex-direction: column;
     margin-left: 250px;
     margin-top: 25px;
   }
+  /* Estilo de los Textos */
   .presentacion {
     font-family: 'Oswald';
     font-size: 45px;
     text-align: center;
     margin-top: 25px;
   }
-  .tItulo-2 {
-    font-family: 'Roboto+Condensed';
-    font-size: 40px;
+  .contactext {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-bottom: 65px;
+    line-height: 1.2em;
+    margin: 0 auto;
+    max-width: 80%;
     text-align: center;
-    margin-top: 60px;
   }
-  .carousel {
-    width: 600px;
-    height: 600px;
-    right: 290px;
+  .carousel-item {
     margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    width: 550px;
+    height: 350px;
   }
   .contactenos {
     text-align: center;
     margin-bottom: 300px;
   }
-  .titUlo3 {
-    font-size: 40px;
+  .container-5-1 {
+    display: grid;
+    grid-template-rows: 50%;
+  }
+  .contacts {
+    margin-left: 260px;
   }
   .telefono-wsp {
     margin-top: 3px;
     display: inline-block;
-    font-size: 30px;
+    font-size: 22px;
   }
   .bi {
     color: black;
-    font-size: 30px;
+    font-size: 22px;
   }
   .seguinos {
     margin-top: 3px;
     display: inline-block;
-    font-size: 30px;
+    font-size: 22px;
   }
-  .maPa {
-    object-fit: cover;
-    width: 100%;
+  .formcolumns {
+    display: flex;
+    flex-direction: column;
+  }
+  .mapa {
+    justify-content: center;
+    margin-left: 45px;
+    height: 250px;
+    width: 650px;
+    bottom: 135px;
+    left: 350px;
   }
 }
 /*Media Quaries para Mobile*/
